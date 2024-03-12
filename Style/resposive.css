@@ -1,0 +1,58 @@
+/*#######Responsive Media and Animations#######*/
+/*Media resposive Root Value*/
+@media screen and (min-width: 1125px) {
+    :root {
+        /*Typography and Font*/
+
+        --biggest-font-size: 4rem;
+        --bigger-font-size: 2rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
+}
+
+
+/*Navigation for mobile*/
+@media screen and (max-width: 1023px) {
+    .nav_menu {
+        position: fixed;
+        top: 0;
+       right: -100%;
+       text-align: center;
+        background-color: hsla(0, 0%, 10%, .3);
+        width: 75%;
+        height: 100%;
+        padding: 4.5rem 0 0 3rem;
+        backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
+        transition: right .4s;
+    }
+
+    .nav_list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .nav_link {
+        color: var(--title-color);
+        font-weight: var(--font-medium);
+    }
+
+    .nav_link:hover {
+        color: var(--first-color);
+    }
+    .nav_close{
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+
+    }
+    .show_menu{
+        right: 0;
+    }
+}
