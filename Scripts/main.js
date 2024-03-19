@@ -68,3 +68,33 @@ const sendEmail =(e)=>{
 }
 
 contactForm.addEventListener('submit', sendEmail);
+
+//ScrollUP
+const scrollUp=()=>{
+    const scrollUp= document.getElementById('scroll-up');
+    //When the scroll is higher than 350 viewport height, add show scroll class
+    this.scrollY >= 350 ? scrollUp.classList.add('show-scroll') : scrollUp.classList.remove('show-scroll');
+};
+
+window.addEventListener('scroll', scrollUp);
+
+/*SCROLL SECTION ACTIVE*/
+
+const sections= document.querySelectorAll('section[id]');
+
+const scrollactive= ()=>{
+    const scrollY = window.pageYOffset;
+    sections.forEach(c =>{
+        const sectionHeight= c.offsetHeight,
+        sectionTop= c.offsetTop-58,
+        sectionId= c.getAttribute('id'),
+        sectionsClass= document.querySelector('.nav_menu a[href*=' + sectionId + ']');
+console.log(c);
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+            sectionsClass.classList.add('active-link');
+        } else {
+            sectionsClass.classList.remove('active-link');
+        }
+    })
+}
+window.addEventListener('scroll',scrollactive);
