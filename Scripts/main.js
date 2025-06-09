@@ -47,14 +47,14 @@ const contactForm = document.getElementById("contact_form"),
 
 const sendEmail = (e) => {
   e.preventDefault();
-
+//create account in emailjs and complete the fields
   //serviceID- TemplateID - #form - PublicKey
   emailjs
     .sendForm(
-      "service_2zteo2z",
-      "template_tnwwdwi",
+      "service_code",
+      "template_code",
       "#contact_form",
-      "NKVB8UNxIF2ZmALsm"
+      "publickey"
     )
     .then(
       () => {
