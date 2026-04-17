@@ -8,7 +8,7 @@ const portfolioData = {
     greeting: "Hello, I'm",
     description:
       "Full Stack Developer specialized in MERN, Java & Spring Boot. I build robust, scalable web solutions from idea to production.",
-    profileImage: "./Assets/perfil_01_edit.png",
+    profileImage: "./assets/perfil.png",
     cvLink: "#",
   },
 
