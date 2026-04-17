@@ -81,16 +81,16 @@ const portfolioData = {
       url: "https://alqmst99.github.io/Real-State-BT/",
     },
     {
-      image: "./assets/project-img-2.jpg",
-      category: "Web",
-      title: "Shoes Website",
-      url: "https://alqmst99.github.io/Shoes-WebSite/",
-    },
-    {
       image: "./assets/project-img-4.jpg",
       category: "Web",
       title: "Book Store",
       url: "https://alqmst99.github.io/Books/",
+    },
+    {
+      image: "./assets/project-img-2.jpg",
+      category: "Web",
+      title: "Shoes Website",
+      url: "https://alqmst99.github.io/Shoes-WebSite/",
     },
     {
       image: "./assets/project-img-3.jpg",
