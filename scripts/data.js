@@ -4,10 +4,10 @@ const portfolioData = {
   /* --- Personal Info --- */
   personal: {
     name: "Nahuel Pierini",
-    role: "Full Stack Developer",
+    role: "Developer",
     greeting: "Hello, I'm",
     description:
-      "Full Stack Developer specialized in MERN, Java & Spring Boot. I build robust, scalable web solutions from idea to production.",
+      "Developer specialized in MERN, Java & Spring Boot. I build robust, scalable web solutions from idea to production.",
     profileImage: "./assets/perfil.png",
     cvLink: "#",
   },
@@ -25,7 +25,7 @@ const portfolioData = {
     subtitle: "My Intro",
     title: "About Me",
     description:
-      "I'm a Full Stack Developer who loves turning complex problems into elegant digital experiences. I work end-to-end — from designing intuitive UIs to architecting solid back-end systems. Always learning, always shipping.",
+      "I'm a Developer who loves turning complex problems into elegant digital experiences. I work end-to-end — from designing intuitive UIs to architecting solid back-end systems. Always learning, always shipping.",
   },
 
   /* --- Skills --- */
