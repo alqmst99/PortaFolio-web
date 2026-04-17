@@ -126,6 +126,6 @@ const portfolioData = {
 
   /* --- Footer --- */
   footer: {
-    copy: "© 2025 FSTailSolution · All rights reserved",
+    copy: `© 2025 <a href="https://alqmst99.github.io/profesional-plan/index.html">FSTailSolution</a> · All rights reserved`,
   },
 };
