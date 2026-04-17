@@ -1,451 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Nahuel Pierini · Full Stack Developer | Java · Spring Boot · MERN</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nahuel Pierini · Full Stack Developer | Java · Spring Boot · MERN</title>
 
-    <meta name="title" content="Nahuel Pierini | Full Stack Developer - Portafolio" />
-    <meta name="description"
-        content="Soy Nahuel Pierini, Full Stack Developer especializado en tecnologías MERN, Java, Spring Boot y bases de datos. Descubrí mi trabajo, proyectos y servicios." />
+  <!-- SEO Meta -->
+  <meta name="description" content="Nahuel Pierini — Full Stack Developer specialized in MERN, Java and Spring Boot. Projects, services and contact." />
+  <meta name="keywords" content="Nahuel Pierini, Full Stack Developer, MERN, Java, Spring Boot, React, Node.js, MySQL, MongoDB, Portfolio" />
+  <meta name="author" content="Nahuel Pierini - FSTail Solution" />
 
-    <!-- Palabras clave -->
-    <meta name="keywords"
-        content="Nahuel Pierini, Full Stack Developer, Portafolio web, desarrollador MERN, Java, Spring Boot, MySQL, MongoDB, HTML, CSS, JavaScript, React, Node.js, Express, desarrollo web, programación" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://alqmst99.github.io/PortaFolio-web/" />
+  <meta property="og:title" content="Nahuel Pierini | Full Stack Developer" />
+  <meta property="og:description" content="Full Stack Developer specializing in robust, scalable web solutions." />
+  <meta property="og:image" content="https://alqmst99.github.io/PortaFolio-web/Assets/perfil_01_edit.png" />
 
-    <!-- Autor -->
-    <meta name="author" content="Nahuel Pierini - FSTail Solution" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nahuel Pierini | Full Stack Developer" />
+  <meta name="twitter:description" content="Portfolio — projects, services and contact." />
+  <meta name="twitter:image" content="https://alqmst99.github.io/PortaFolio-web/Assets/perfil_01_edit.png" />
 
-    <!-- Social Preview: Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://fstailsolution.dev" />
-    <meta property="og:title" content="Nahuel Pierini | Full Stack Developer - Portafolio" />
-    <meta property="og:description"
-        content="Conocé mis proyectos como desarrollador Full Stack y descubrí cómo puedo ayudarte a construir soluciones web robustas y escalables." />
-    <meta property="og:image" content="https://fstailsolution.dev/assets/perfil_01_edit.png" />
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Nahuel Pierini",
+    "jobTitle": "Full Stack Developer",
+    "url": "https://alqmst99.github.io/PortaFolio-web/",
+    "sameAs": [
+      "https://github.com/alqmst99",
+      "https://www.linkedin.com/in/nahuel-pierini-b16396150/"
+    ]
+  }
+  </script>
 
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Nahuel Pierini | Full Stack Developer - Portafolio" />
-    <meta name="twitter:description"
-        content="Portafolio de desarrollo web Full Stack. Proyectos, servicios y contacto." />
-    <meta name="twitter:image" content="https://fstailsolution.dev/assets/perfil_01_edit.png" />
+  <!-- Icons & Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="./Assets/favicons.png" />
 
-    <meta property="og:title" content="Nahuel Pierini · Full Stack Developer" />
-    <meta property="og:description"
-        content="Portafolio personal con proyectos en Java, Spring Boot, MERN, HTML, CSS y más." />
-    <meta property="og:image" content="https://alqmst99.github.io/PortaFolio-web/Assets/perfil_01_edit.png" />
-    <meta property="og:url" content="https://alqmst99.github.io/PortaFolio-web/" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="./Assets/favicons.png" />
-    <link rel="stylesheet" href="./Style/style.css">
-    <link rel="stylesheet" href="./Style/resposive.css">
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Nahuel Pierini",
-  "jobTitle": "Full Stack Developer",
-  "url": "https://alqmst99.github.io/PortaFolio-web/",
-  "sameAs": [
-    "https://github.com/alqmst99",
-    "https://www.linkedin.com/in/alqmst99"
-  ]
-}
-</script>
+  <!-- Styles -->
+  <link rel="stylesheet" href="./Style/style.css" />
+  <link rel="stylesheet" href="./Style/resposive.css" />
 </head>
-
 <body>
-    <!--HEADER-SECTION-->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav_logo">
-                Nahuel <span>Pierini</span>
-            </a>
-            <div class="nav_menu" id="nav_menu">
-                <ul class="nav_list">
-                    <li class="nav_item">
-                        <a href="#home" class="nav_link">Home</a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#about" class="nav_link">About</a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#skills" class="nav_link">Services</a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#services" class="nav_link">Services</a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#projects" class="nav_link">Project</a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#contact" class="nav_link">Contact</a>
-                    </li>
-                </ul>
 
-                <!--Close Button-->
-                <div class="nav_close" id="nav_close">
-                    <i class="ri-close-line"></i>
-                </div>
-            </div>
-            <!--Toggle Button-->
-            <div class="nav_toggle" id="nav_toggle">
-                <i class="ri-menu-line"></i>
-            </div>
-        </nav>
-    </header>
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav_logo">Nahuel <span>Pierini</span></a>
 
-    <!--MAIN-SECTION-->
-    <main class="main" id="main">
+      <div class="nav_menu" id="nav_menu">
+        <ul class="nav_list">
+          <li><a href="#home"     class="nav_link">Home</a></li>
+          <li><a href="#about"    class="nav_link">About</a></li>
+          <li><a href="#skills"   class="nav_link">Skills</a></li>
+          <li><a href="#services" class="nav_link">Services</a></li>
+          <li><a href="#projects" class="nav_link">Projects</a></li>
+          <li><a href="#contact"  class="nav_link">Contact</a></li>
+        </ul>
+        <button class="nav_close" id="nav_close" aria-label="Close menu">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
 
-        <!--HOME SECTION-->
-        <section class="home section" id="home">
-            <div class="home_container container grid">
-                <div class="home_content">
-                    <div class="home_data">
-                        <h3 class="home_subtitle">
-                            Hello <span>I'm</span>
-                        </h3>
-                        <h1 class="home_title">Nahuel Pierni</h1>
-                        <h3 class="home_education">Full Stack Developer</h3>
-                        <p class="home_description">With knowledge in web developer and design, i offer the best project
-                            resulting in quality work </p>
-                        <a href="#contact" class="button"> Let's Talk</a>
-                    </div>
+      <button class="nav_toggle" id="nav_toggle" aria-label="Open menu">
+        <i class="ri-menu-line"></i>
+      </button>
+    </nav>
+  </header>
 
-                    <div class="home_social">
-                        <a href="https://github.com/alqmst99" target="_blank" class="home_social-link"><i class="ri-github-fill"></i> </a>
-                        <a href="https://www.instagram.com/fstailsolution/" target="_blank" class="home_social-link"><i class="ri-instagram-fill"></i></a>
-                        <a href="https://www.linkedin.com/in/nahuel-pierini-b16396150/" target="_blank" class="home_social-link"><i class="ri-linkedin-box-fill"></i></a>
-                    </div>
-                </div>
-                <div class="home_image">
-                    <svg class="home_blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="maskBlob" mask-type="alpha">
-                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
-           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
-           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
-           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
-           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
-                        </mask>
-                        <g mask="url(#maskBlob)">
-                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
-           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
-           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
-           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
-           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+  <!-- ===== MAIN ===== -->
+  <main class="main" id="main">
 
-                            <rect x="37" width="476" height="630" fill="url(#pattern0)" />
-                        </g>
-
-                        <rect x="37" width="476" height="300" fill="url(#pattern1)" />
-
-                        <defs>
-                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)" />
-                            </pattern>
-
-                            <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
-                            </pattern>
-
-                            <!-- Insert your profile (recommended size: 640 x 940) -->
-                            <image class="home_img" id="imageBlob" width="640" height="920"
-                                href="./Assets/perfil_01_edit.png" />
-                        </defs>
-                    </svg>
-                </div>
-            </div>
-        </section>
-
-        <!--ABOUT SECTION-->
-        <section class="about section" id="about">
-            <div class="about_container container grid">
-                <div class="about_data">
-                    <h3 class="section_subtitle">
-                        My <span>Intro</span>
-                    </h3>
-
-                    <h2 class="section_title">
-                        About Me
-                    </h2>
-
-                    <p class="about_description">
-                        I'm Full Stack Developer, I create full stack web pages, with back-end (server side) and
-                        front-end (client side). here to provide solutions for my clients and products excellent
-                        quality.
-                    </p>
-
-                    <a href="#contact" class="button">Contact Me</a>
-
-
-                </div>
-                <div class="about_image">
-                    <svg class="about_blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="maskBorder" mask-type="alpha">
-                            <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
-           171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
-           448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
-           270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
-           439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black" />
-                        </mask>
-                        <g mask="url(#maskBorder)">
-                            <rect x="37" width="476" height="630" fill="url(#pattern2)" />
-
-                            <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
-           192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
-           580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
-           40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
-           175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black" stroke-width="10" />
-                        </g>
-
-                        <rect x="37" width="476" height="300" fill="url(#pattern3)" />
-
-                        <defs>
-                            <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)" />
-                            </pattern>
-
-                            <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
-                            </pattern>
-
-                            <!-- Insert your profile (recommended size: 640 x 940) -->
-                            <image class="about_img" id="imageBorder" width="640" height="940"
-                                href="./Assets/perfil_01_edit.png" />
-                        </defs>
-                    </svg>
-                </div>
-            </div>
-        </section>
-
-        <!--SKILL SECTION-->
-        <section class="skills section" id="skills">
-            <div class="skills_container section_container grid">
-                <div class="skills_data">
-                    <h3 class="section_subtitle">
-                        Favorite <span>Skills</span>
-                    </h3>
-                    <h2 class="section_title">
-                        My Skills
-                    </h2>
-                    <p class="skills_description"></p>
-                    <a href="#projects" class="button">See Projects</a>
-                </div>
-                <div class="skills_content">
-
-                    <ol class="skills_group">
-                        <h3 class="section_subtitle">Front-End Skills</h3>
-                        <li class="skills_items">HTML & CSS</li>
-                        <li class="skills_items">JavaScript</li>
-                        <li class="skills_items">Bootstrap</li>
-                        <li class="skills_items">Tailwindcss</li>
-                        <li class="skills_items">ReactJS</li>
-                        <li class="skills_items">Redux</li>
-                    </ol>
-
-                    <ol class="skills_group" start="7">
-                        <h3 class="section_subtitle">Back-End Skills</h3>
-                        <li class="skills_items">Java</li>
-                        <li class="skills_items">Express</li>
-                        <li class="skills_items">SpringBoot</li>
-                        <li class="skills_items">MySQL</li>
-                        <li class="skills_items">MongoDB with Mongoose</li>
-                        <li class="skills_items">Postman</li>
-                    </ol>
-
-                    <ol class="skills_group" start="13">
-                        <h3 class="section_subtitle">Version & Desing Skills</h3>
-                        <li class="skills_items">Git & Github</li>
-                        <li class="skills_items">Figma</li>
-                    </ol>
-                </div>
-            </div>
-        </section>
-
-        <!--SERVICE SECTION-->
-        <section class="service section" id="services">
-            <h3 class="section_subtitle">
-                My <span>Services</span>
-            </h3>
-
-            <h2 class="section_title">
-                What I Do
-            </h2>
-            <div class="services_container container grid">
-                <article class="services_card">
-                    <i class="ri-layout-3-fill service_icon"></i>
-                    <h2 class="services_title">Web Developer</h2>
-                    <p class="service_description">
-                        Developement of custom web pages.
-                        Using current technologies and libreries of the labor field.
-                    </p>
-                </article>
-                <article class="services_card">
-                    <i class="ri-pantone-line service_icon"></i>
-                    <h2 class="services_title">UI/UX Designer</h2>
-                    <p class="service_description">I offer desing of web interfaces and mobile aplications, desing made
-                        in figma</p>
-                </article>
-                <article class="services_card">
-                    <i class="ri-file-settings-fill service_icon"></i>
-                    <h2 class="services_title">API's Developer</h2>
-                    <p class="service_description">I offer Developement of custom API's (Back-End).
-                        Using current technologies and libreries of the labor field.
-                    </p>
-                </article>
-            </div>
-        </section>
-
-        <!--PROJECTS SECTION-->
-        <section class="projects section" id="projects">
-            <h3 class="section_subtitle">
-                My <span>Jobs</span>
-            </h3>
-            <h2 class="section_title">
-                Recent Projects
-            </h2>
-
-            <div class="projects_container container grid">
-                <article class="projects_card">
-                    <img src="./Assets/project-img-1.jpg" alt="project-image" class="project_img">
-                    <div class="project_modal">
-                        <span class="projects_subtitle">Web</span>
-                        <h2 class="projects_title">Modern Real State Website</h2>
-                        <a href="https://alqmst99.github.io/Real-State-BT/" class="projects_button">View Demo <i
-                                class="ri-external-link-line"></i></a>
-                    </div>
-                </article>
-                
-                <article class="projects_card">
-                    <img src="./Assets/project-img-2.jpg" alt="project-image" class="project_img">
-                    <div class="project_modal">
-                        <span class="projects_subtitle">Web</span>
-                        <h2 class="projects_title">Shoes-WebSite</h2>
-                        <a href="https://alqmst99.github.io/Shoes-WebSite/" class="projects_button">View Demo <i
-                                class="ri-external-link-line"></i></a>
-                    </div>
-                </article>
-
-                <article class="projects_card">
-                    <img src="./Assets/project-img-4.jpg" alt="project-image" class="project_img">
-                    <div class="project_modal">
-                        <span class="projects_subtitle">Web</span>
-                        <h2 class="projects_title">Modern Book Store Website</h2>
-                        <a href="https://alqmst99.github.io/Books/" class="projects_button">View Demo <i
-                                class="ri-external-link-line"></i></a>
-                    </div>
-                </article>
-
-                <article class="projects_card">
-                    <img src="./Assets/project-img-3.jpg" alt="project-image" class="project_img">
-                    <div class="project_modal">
-                        <span class="projects_subtitle">Web</span>
-                        <h2 class="projects_title">Modern Gym Website</h2>
-                        <a href="https://alqmst99.github.io/Landing-Gym/" class="projects_button">View Demo <i
-                                class="ri-external-link-line"></i></a>
-                    </div>
-                </article>
-
-                <article class="projects_card">
-                    <img src="./Assets/project-img-6.jpg" alt="project-image" class="project_img">
-                    <div class="project_modal">
-                        <span class="projects_subtitle">Web</span>
-                        <h2 class="projects_title">Medical-Care</h2>
-                        <a href="https://alqmst99.github.io/Medical-Care/" class="projects_button">View Demo <i
-                                class="ri-external-link-line"></i></a>
-                    </div>
-                </article>
-
-                <article class="projects_card">
-                    <img src="./Assets/project-img-4.jpg" alt="project-image" class="project_img">
-                    <div class="project_modal">
-                        <span class="projects_subtitle">Web</span>
-                        <h2 class="projects_title">Modern E-comerce Website</h2>
-                        <a href="https://alqmst99.github.io/Clothes-comerce/" class="projects_button">View Demo <i
-                                class="ri-external-link-line"></i></a>
-                    </div>
-                </article>
-
-                <article class="projects_card">
-                    <img src="./Assets/project-img-5.jpg" alt="project-image" class="project_img">
-                    <div class="project_modal">
-                        <span class="projects_subtitle">API</span>
-                        <h2 class="projects_title">API E-comerce</h2>
-                        <a href="#" class="projects_button">View Demo <i class="ri-external-link-line"></i></a>
-                    </div>
-                </article>
-
-                <article class="projects_card">
-                    <img src="./Assets/project-img-6.jpg" alt="project-image" class="project_img">
-                    <div class="project_modal">
-                        <span class="projects_subtitle">API</span>
-                        <h2 class="projects_title">Bloggin</h2>
-                        <a href="#" class="projects_button">View Demo <i class="ri-external-link-line"></i></a>
-                    </div>
-                </article>
-
-            </div>
-        </section>
-
-        <!--CONTACT SECTION-->
-        <section class="contact section" id="contact">
-            <h3 class="section_subtitle">
-                Get In <span>Touch</span>
-            </h3>
-            <h2 class="section_title">
-                Contact Me
-            </h2>
-            <div class="contact_container container grid">
-                <form action="" class="contact_form" id="contact_form">
-                    <div class="contact_group">
-                        <input type="text" name="user_name" required placeholder="Enter your name"
-                            class="contact_input">
-                        <input type="email" name="user_email" required placeholder="Enter your email"
-                            class="contact_input">
-                    </div>
-                    <textarea name="user_project" required placeholder="Enter your message"
-                        class="contac_input"></textarea>
-                    <p class="contact_message" id="contact_message"></p>
-                    <button type="submit" class="button contact_button">Send Message</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!--FOOTER-SECTION-->
-    <footer class="footer" id="footer">
-        <div class="footer_container container grid">
-            <div>
-                <h1 class="footer_title">Nahuel <span>Pierini</span></h1>
-                <h2 class="footer_education">
-                    Full Stack Developer
-                </h2>
-            </div>
-
-            <div class="footer_social">
-                <a href="https://www.facebook.com/profile.php?id=61576895656920" target="_blank" class="footer_social-link"><i class="ri-facebook-circle-line"></i></a>
-                <a href="https://www.instagram.com/fstailsolution/" target="_blank" class="footer_social-link"><i class="ri-instagram-line"></i></a>
-                <a href="https://www.linkedin.com/in/nahuel-pierini-b16396150/" target="_blank" class="footer_social-link"><i class="ri-linkedin-box-fill"></i></a>
-            </div>
-
-            <span class="footer_copy"> &copy; Copyright <strong>FSTailSolution</strong>. All right reserved</span>
-
+    <!-- HOME -->
+    <section class="home section" id="home">
+      <div class="home_container container grid">
+        <div class="home_content">
+          <div class="home_data">
+            <h3 class="home_subtitle">Hello, <span>I'm</span></h3>
+            <h1 class="home_title">Nahuel Pierini</h1>
+            <h3 class="home_education">Full Stack Developer</h3>
+            <p class="home_description">
+              Full Stack Developer specialized in MERN, Java &amp; Spring Boot.
+              I build robust, scalable web solutions from idea to production.
+            </p>
+            <a href="#contact" class="button">Let's Talk <i class="ri-arrow-right-line"></i></a>
+          </div>
+          <div class="home_social">
+            <!-- Injected by main.js -->
+          </div>
         </div>
-    </footer>
 
-    <!--SCROLL-UP-->
-    <a href="" class="scrollup" id="scroll-up"><i class="ri-arrow-up-line"></i></a>
+        <div class="home_image">
+          <svg class="home_blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+            <mask id="maskBlob" mask-type="alpha">
+              <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157
+               170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157
+               447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609
+               270.426 587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843
+               447.468 36.843 438.894V191.606C36.843 183.032 41.4174 175.109 48.843
+               170.822L263 47.1782Z"/>
+            </mask>
+            <g mask="url(#maskBlob)">
+              <path fill="hsla(250,90%,60%,0.15)" d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157
+               170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157
+               447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609
+               270.426 587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843
+               447.468 36.843 438.894V191.606C36.843 183.032 41.4174 175.109 48.843
+               170.822L263 47.1782Z"/>
+              <rect x="37" width="476" height="630" fill="url(#patHome)"/>
+            </g>
+            <defs>
+              <pattern id="patHome" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use href="#imgHome" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+              </pattern>
+              <image class="blob_img" id="imgHome" width="640" height="920" href="./Assets/perfil_01_edit.png"/>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </section>
 
-    <!--SCRIPTS-->
-    <script src="./Scripts/main.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="./Scripts/ScrollReveal.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="about_container container grid">
+        <div class="about_data">
+          <span class="section_subtitle about_subtitle">My Intro</span>
+          <h2 class="section_title about_section_title">About Me</h2>
+          <p class="about_description"></p>
+          <a href="#contact" class="button">Contact Me</a>
+        </div>
+
+        <div class="about_image">
+          <svg class="about_blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="maskBorder" mask-type="alpha">
+              <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157
+               171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157
+               448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609
+               270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843
+               448.468 36.843 439.894V192.606C36.843 184.032 41.4174 176.109 48.843
+               171.822L263 48.1782Z" fill="black"/>
+            </mask>
+            <g mask="url(#maskBorder)">
+              <rect x="37" width="476" height="630" fill="url(#patAbout)"/>
+            </g>
+            <defs>
+              <pattern id="patAbout" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use href="#imgAbout" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+              </pattern>
+              <image class="about_img_el" id="imgAbout" width="640" height="940" href="./Assets/perfil_01_edit.png"/>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+      <div class="skills_container container grid">
+        <div class="skills_data">
+          <span class="section_subtitle skills_subtitle">Favorite Skills</span>
+          <h2 class="section_title skills_section_title">My Skills</h2>
+          <p class="skills_description"></p>
+          <a href="#projects" class="button">See Projects</a>
+        </div>
+        <div class="skills_content">
+          <!-- Injected by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="service section" id="services">
+      <span class="section_subtitle">What I Offer</span>
+      <h2 class="section_title">Services</h2>
+      <div class="services_container container grid">
+        <!-- Injected by main.js -->
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
+      <span class="section_subtitle">My Work</span>
+      <h2 class="section_title">Recent Projects</h2>
+      <div class="projects_container container grid">
+        <!-- Injected by main.js -->
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <span class="section_subtitle">Get In Touch</span>
+      <h2 class="section_title">Contact Me</h2>
+      <div class="contact_container container">
+        <form class="contact_form" id="contact_form" novalidate>
+          <div class="contact_group">
+            <input type="text"  name="user_name"    required placeholder="Your name"  class="contact_input" />
+            <input type="email" name="user_email"   required placeholder="Your email" class="contact_input" />
+          </div>
+          <textarea name="user_project" required placeholder="Your message" class="contact_input"></textarea>
+          <p class="contact_message" id="contact_message"></p>
+          <button type="submit" class="button contact_button">
+            Send Message <i class="ri-send-plane-line"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="footer_container container grid">
+      <div>
+        <h2 class="footer_name"><!-- Injected --></h2>
+        <p class="footer_role"><!-- Injected --></p>
+      </div>
+      <div class="footer_social"><!-- Injected --></div>
+      <span class="footer_copy"><!-- Injected --></span>
+    </div>
+  </footer>
+
+  <!-- Scroll Up -->
+  <a href="#home" class="scrollup" id="scroll-up" aria-label="Scroll to top">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="./Scripts/data.js"></script>
+  <script src="./Scripts/main.js"></script>
 </body>
-
 </html>
