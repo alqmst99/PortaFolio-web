@@ -75,49 +75,49 @@ const portfolioData = {
   /* --- Projects --- */
   projects: [
     {
-      image: "./Assets/project-img-1.jpg",
+      image: "./assets/project-img-1.jpg",
       category: "Web",
       title: "Modern Real Estate",
       url: "https://alqmst99.github.io/Real-State-BT/",
     },
     {
-      image: "./Assets/project-img-2.jpg",
+      image: "./assets/project-img-2.jpg",
       category: "Web",
       title: "Shoes Website",
       url: "https://alqmst99.github.io/Shoes-WebSite/",
     },
     {
-      image: "./Assets/project-img-4.jpg",
+      image: "./assets/project-img-4.jpg",
       category: "Web",
       title: "Book Store",
       url: "https://alqmst99.github.io/Books/",
     },
     {
-      image: "./Assets/project-img-3.jpg",
+      image: "./assets/project-img-3.jpg",
       category: "Web",
       title: "Gym Landing Page",
       url: "https://alqmst99.github.io/Landing-Gym/",
     },
     {
-      image: "./Assets/project-img-6.jpg",
+      image: "./assets/project-img-6.jpg",
       category: "Web",
       title: "Medical Care",
       url: "https://alqmst99.github.io/Medical-Care/",
     },
     {
-      image: "./Assets/project-img-4.jpg",
+      image: "./assets/project-img-4.jpg",
       category: "Web",
       title: "E-Commerce",
       url: "https://alqmst99.github.io/Clothes-comerce/",
     },
     {
-      image: "./Assets/project-img-5.jpg",
+      image: "./assets/project-img-5.jpg",
       category: "API",
       title: "E-Commerce API",
       url: "#",
     },
     {
-      image: "./Assets/project-img-6.jpg",
+      image: "./assets/project-img-6.jpg",
       category: "API",
       title: "Blogging API",
       url: "#",
